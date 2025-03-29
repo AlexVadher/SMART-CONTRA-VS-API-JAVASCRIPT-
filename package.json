@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "bn.js": "^5.2.1",
+    "dotenv": "16.4.7",
+    "mongoose": "8.12.2",
+    "web3": "^4.16.0"
+  },
+  "name": "test-trruffle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "express": "4.21.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
